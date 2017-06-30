@@ -1,0 +1,76 @@
+body {
+ 	margin: 0 ;
+ 	overflow-x: hidden;
+}
+
+meta {
+	display: none;
+}
+
+.container {
+	width: 100%;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.logo {
+	width: 250px;
+	position: absolute;
+	left: 1%;
+	top: -4%;
+	position: fixed;
+}
+
+.entry-container {
+	width: 70%;
+	margin-left: 250px;
+	margin-bottom: 5%;
+}
+
+.entry {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 4%;
+}
+
+.title {
+	width: 70%;
+	margin: 0 auto;
+	font-family: "sg chalet", sans-serif;
+	text-align: center;
+	font-size: 2.05em;
+	letter-spacing: .04em;
+	padding: 15px 0px;
+	border-top: solid 5px black;
+}
+
+.date {
+	font-family: "sg chalet", sans-serif;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5%;
+	margin-right: 3%;
+	margin-top: 0;
+}
+
+.entry-image {
+	width: 70%;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.post {
+	width: 70%;
+	margin: 0 auto;
+	text-align: left;
+	font-family: "italian-oldstyle";
+    font-size: 1em;
+    line-height: 1.4em;
+    letter-spacing: .03em;
+    margin-top: 30px;
+}
+
+.more_text {
+	display: none;
+}
